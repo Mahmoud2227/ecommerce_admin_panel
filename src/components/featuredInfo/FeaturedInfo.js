@@ -3,7 +3,7 @@ import {ArrowDownward, ArrowUpward} from "@material-ui/icons";
 
 const FeaturedInfo = () => {
 	return (
-		<Grid container style={{gap: "20px", padding: "20px"}}>
+		<Grid container style={{gap: "50px"}}>
 			<Grid item style={{flexGrow: 1}}>
 				<Paper style={{padding: "20px"}} elevation={1}>
 					<Typography variant='h5'>Revanue</Typography>

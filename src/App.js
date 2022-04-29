@@ -12,9 +12,6 @@ function App() {
 			<Grid container justifyContent='space-between' style={{height: "Calc(100vh - 64px)"}}>
 				<SideBar />
 				<Home />
-				<Grid item md={2}>
-					Page
-				</Grid>
 			</Grid>
 		</>
 	);
