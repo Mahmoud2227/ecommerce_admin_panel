@@ -8,14 +8,14 @@ import {
 	ListItemText,
 	Paper,
 	Typography,
-} from "@material-ui/core";
-import {Visibility} from "@material-ui/icons";
+} from "@mui/material";
+import {Visibility} from "@mui/icons-material";
 import React from "react";
 
 const WidgetSm = () => {
 	return (
 		<Grid item md={4}>
-			<Paper style={{paddingBlock: 15}} elevation={1}>
+			<Paper sx={{paddingBlock: 3}} elevation={1}>
 				<Typography variant='h4' align='center'>
 					New Join Members
 				</Typography>
@@ -27,7 +27,7 @@ const WidgetSm = () => {
 						<ListItemText primary='Mahmoud Salah' secondary='Front-end Developer' />
 						<Button
 							variant='outlined'
-							style={{backgroundColor: "#eeeef7", textTransform: "none"}}
+							sx={{backgroundColor: "#eeeef7", textTransform: "none"}}
 							startIcon={<Visibility />}>
 							Display
 						</Button>
@@ -39,7 +39,7 @@ const WidgetSm = () => {
 						<ListItemText primary='Mahmoud Salah' secondary='Front-end Developer' />
 						<Button
 							variant='outlined'
-							style={{backgroundColor: "#eeeef7", textTransform: "none"}}
+							sx={{backgroundColor: "#eeeef7", textTransform: "none"}}
 							startIcon={<Visibility />}>
 							Display
 						</Button>
@@ -51,7 +51,7 @@ const WidgetSm = () => {
 						<ListItemText primary='Mahmoud Salah' secondary='Front-end Developer' />
 						<Button
 							variant='outlined'
-							style={{backgroundColor: "#eeeef7", textTransform: "none"}}
+							sx={{backgroundColor: "#eeeef7", textTransform: "none"}}
 							startIcon={<Visibility />}>
 							Display
 						</Button>
@@ -63,7 +63,7 @@ const WidgetSm = () => {
 						<ListItemText primary='Mahmoud Salah' secondary='Front-end Developer' />
 						<Button
 							variant='outlined'
-							style={{backgroundColor: "#eeeef7", textTransform: "none"}}
+							sx={{backgroundColor: "#eeeef7", textTransform: "none"}}
 							startIcon={<Visibility />}>
 							Display
 						</Button>

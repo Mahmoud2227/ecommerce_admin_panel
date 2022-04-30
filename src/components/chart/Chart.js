@@ -1,5 +1,5 @@
 import React from "react";
-import {Paper, Typography} from "@material-ui/core";
+import {Paper, Typography} from "@mui/material";
 import {
 	LineChart,
 	Line,
@@ -13,7 +13,7 @@ import {
 
 const Chart = ({title, data, dataKey, grid}) => {
 	return (
-		<Paper elevation={1} style={{padding: 20, marginBlock: 20}}>
+		<Paper elevation={1} sx={{padding: 3, marginBlock: 3}}>
 			<Typography variant='h4'>{title}</Typography>
 			<ResponsiveContainer width='100%' aspect={4 / 1}>
 				<LineChart data={data}>
