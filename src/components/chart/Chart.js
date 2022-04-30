@@ -13,9 +13,9 @@ import {
 
 const Chart = ({title, data, dataKey, grid}) => {
 	return (
-		<Paper elevation={1} style={{padding: 20, marginTop: 20}}>
+		<Paper elevation={1} style={{padding: 20, marginBlock: 20}}>
 			<Typography variant='h4'>{title}</Typography>
-			<ResponsiveContainer width='100%' aspect={3 / 1}>
+			<ResponsiveContainer width='100%' aspect={4 / 1}>
 				<LineChart data={data}>
 					<XAxis dataKey='name' stroke='#8884d8' />
 					<Line type='monotone' dataKey={dataKey} stroke='#8884d8' activeDot={{r: 8}} />
