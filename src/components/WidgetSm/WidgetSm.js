@@ -15,11 +15,23 @@ import React from "react";
 const WidgetSm = () => {
 	return (
 		<Grid item md={4}>
-			<Paper sx={{paddingBlock: 3}} elevation={1}>
-				<Typography variant='h4' align='center'>
+			<Paper sx={{pt: 3, height: "100%"}} elevation={1}>
+				<Typography variant='h5' px={2} fontWeight='bold'>
 					New Join Members
 				</Typography>
 				<List>
+					<ListItem>
+						<ListItemAvatar>
+							<Avatar>U</Avatar>
+						</ListItemAvatar>
+						<ListItemText primary='Mahmoud Salah' secondary='Front-end Developer' />
+						<Button
+							variant='outlined'
+							sx={{backgroundColor: "#eeeef7", textTransform: "none"}}
+							startIcon={<Visibility />}>
+							Display
+						</Button>
+					</ListItem>
 					<ListItem>
 						<ListItemAvatar>
 							<Avatar>U</Avatar>

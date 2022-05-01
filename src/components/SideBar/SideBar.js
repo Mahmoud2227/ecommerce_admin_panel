@@ -44,7 +44,7 @@ const SideBar = () => {
 				<Toolbar />
 				<Box paddingLeft={2} paddingTop={2}>
 					<Typography variant='subtitle1'>Dashboard</Typography>
-					<MenuList dense>
+					<MenuList>
 						<MenuItem>
 							<ListItemIcon>
 								<LineStyle />
@@ -65,7 +65,7 @@ const SideBar = () => {
 						</MenuItem>
 					</MenuList>
 					<Typography variant='subtitle1'>Quick Menu</Typography>
-					<MenuList dense>
+					<MenuList>
 						<MenuItem>
 							<ListItemIcon>
 								<PermIdentity />
@@ -92,7 +92,7 @@ const SideBar = () => {
 						</MenuItem>
 					</MenuList>
 					<Typography variant='subtitle1'>Notifications</Typography>
-					<MenuList dense>
+					<MenuList>
 						<MenuItem>
 							<ListItemIcon>
 								<Email />
