@@ -9,7 +9,7 @@ import {userData} from "../../dummyData";
 
 const Home = () => {
 	return (
-		<Box flexGrow={1} sx={{padding: "40px 20px 20px 0"}}>
+		<Box flexGrow={1} ml={4} sx={{padding: "40px 20px 20px 0"}}>
 			<FeaturedInfo />
 			<Chart title='User Analytics' grid dataKey='Active User' data={userData} />
 			<Grid container spacing={4}>

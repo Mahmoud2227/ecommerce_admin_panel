@@ -3,15 +3,12 @@ import {
 	Box,
 	Drawer,
 	Grid,
-	List,
-	ListItem,
 	ListItemIcon,
 	ListItemText,
 	MenuItem,
 	MenuList,
 	Toolbar,
 	Typography,
-	makeStyles,
 } from "@mui/material";
 import {
 	AttachMoney,
@@ -31,9 +28,6 @@ import {
 const SideBar = () => {
 	return (
 		<Grid item md={2} sx={{background: "rgb(251, 251, 255)"}}>
-			{/* <Drawer variant='permanent'>
-				<Typography>Hello</Typography>
-			</Drawer> */}
 			<Drawer
 				variant='permanent'
 				sx={{
