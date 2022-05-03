@@ -24,10 +24,12 @@ import {
 
 const User = () => {
     return (
-        <Paper elevation={0} sx={{ p: 2, width: "100%" }}>
+        <Box p={2} width="100%">
             <Box display="flex" justifyContent="space-between" alignItems="center" mb={2}>
                 <Typography variant="h2">Edit User</Typography>
-                <Button variant="contained">Create</Button>
+                <Button variant="contained" href="/newUser">
+                    Create
+                </Button>
             </Box>
             <Grid container spacing={4}>
                 <Grid item md={4}>
@@ -88,7 +90,7 @@ const User = () => {
                 <Grid item md={8}>
                     <Paper sx={{ p: 2, display: "flex", flexDirection: "column", height: "100%" }}>
                         <Typography variant="h4">Edit</Typography>
-                        <Box height="100%" display="flex">
+                        <Box height="100%" display="flex" gap={20}>
                             <Box
                                 component="form"
                                 display="flex"
@@ -110,7 +112,7 @@ const User = () => {
                                 alignItems="flex-end"
                                 justifyContent="space-between"
                             >
-                                <div>
+                                <Box display="flex" alignItems="center" gap={1}>
                                     <Box
                                         component="img"
                                         src="https://via.placeholder.com/150"
@@ -132,15 +134,16 @@ const User = () => {
                                             <PhotoCamera />
                                         </IconButton>
                                     </label>
-                                </div>
-                                <Button variant="contained">Update</Button>
+                                </Box>
+                                <Button variant="contained" sx={{ px: 8 }}>
+                                    Update
+                                </Button>
                             </Box>
                         </Box>
                     </Paper>
                 </Grid>
             </Grid>
-            s
-        </Paper>
+        </Box>
     );
 };
 
