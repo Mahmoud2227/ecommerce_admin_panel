@@ -26,13 +26,15 @@ const User = () => {
     return (
         <Box p={2} width="100%">
             <Box display="flex" justifyContent="space-between" alignItems="center" mb={2}>
-                <Typography variant="h2">Edit User</Typography>
+                <Typography variant="h3" fontWeight="bold">
+                    User
+                </Typography>
                 <Button variant="contained" href="/newUser">
                     Create
                 </Button>
             </Box>
             <Grid container spacing={4}>
-                <Grid item md={4}>
+                <Grid item md={4} flexGrow={1}>
                     <Paper sx={{ p: 2 }}>
                         <Box display="flex" alignItems="center" gap={2}>
                             <Avatar>U</Avatar>
