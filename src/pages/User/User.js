@@ -137,7 +137,7 @@ const User = () => {
                                         </IconButton>
                                     </label>
                                 </Box>
-                                <Button variant="contained" sx={{ px: 8 }}>
+                                <Button variant="contained" sx={{ px: 9 }}>
                                     Update
                                 </Button>
                             </Box>
